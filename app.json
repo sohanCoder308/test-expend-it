@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Expendit",
+    "slug": "Expendit",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/snack-icon.png",
+    "splash": {
+      "image": "./assets/expendit.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6fc0b8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+     "android": {
+      "package": "com.sohanscreations.expendit",
+      "versionCode": 1
+    }
+  }
+}
